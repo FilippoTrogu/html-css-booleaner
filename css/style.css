@@ -26,3 +26,20 @@
 #info-foto{
     font-size: small;
 }
+
+#testo-foto-finali{
+    color: grey;
+}
+
+.foto-finale-1{
+    background-image: url('../img/monitor.jpg');
+    width: 200px;
+    height: 200px;
+}
+
+.foto-finale-2{
+    background-image: url('../img/graph.jpg');
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
+}
