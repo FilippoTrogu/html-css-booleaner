@@ -35,6 +35,9 @@
     background-image: url('../img/monitor.jpg');
     width: 200px;
     height: 200px;
+    text-align: center;
+    font-size: large;
+    color: white;
 }
 
 .foto-finale-2{
@@ -42,4 +45,23 @@
     width: 200px;
     height: 200px;
     margin-top: 5px;
+    text-align: center;
+    font-size: large;
+    color: white;
+}
+
+#testa-tabella{
+    background-color: blue;
+}
+
+thead{
+    color: aliceblue;
+}
+
+.row{
+    background-color: #7373bd;
+}
+
+#row 2{
+    background-color: white;
 }
