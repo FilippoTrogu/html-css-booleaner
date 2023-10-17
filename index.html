@@ -10,29 +10,30 @@
     
     <!-- logo e sfondo -->
     <header>
-        <div class="container">
-            <div class="logo"></div>
-            <div class="backpattern"></div>
-          
-        </div>
+            <div class="logo">
+                 <img src="file:///C:/Users/User/Desktop/classe%20113/html-css-booleaner/img/logo.svg" alt="logo">
+            </div>
     </header>
 
     <main>
         <!-- titolo e sottotitolo -->
         <div>
             <h1>Internet deve essere al servizio del "bene pubblico", il manifesto di Tim Berners-Lee</h1>
-            <p>Scritto da <b id="autore">The Booleaner</b></p>
-            <p id="data">il 10/10/2020</p>
+            <div class="author">Scritto da <span id="author-name">The Booleaner</span></div>
+            <div id="data">il 10/10/2020</div>
         </div>
 
         <!-- immagini -->
-        <img src="./img/tim-1.jpg" alt="">
-        <img src="./img/tim-2.jpg" alt="">
-        <p id="info-foto">1st Photo: John S. and James L. Knight Foundation. by Scott henrichsen <br> 2nd Photo: Wikimedia, by Paul Clarke</p>
+        <div class="photo">
+             <img src="./img/tim-1.jpg" alt="">
+            <img src="./img/tim-2.jpg" alt="">
+            <p id="info-foto">1st Photo: John S. and James L. Knight Foundation. by Scott henrichsen <br> 2nd Photo: Wikimedia, by Paul Clarke</p>
+        </div>
+       
 
         <!-- testo e lista -->
         <div>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo beatae magni doloremque tempora asperiores. Magnam reiciendis vel iusto officia eius rem quaerat excepturi distinctio consectetur architecto nesciunt, quos, ad nulla!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <span class="highlight">Illo beatae magni doloremque tempora aspe Magnam reiciendis vel iusto</span> officia eius rem quaerat excepturi distinctio consectetur architecto neriores.sciunt, quos, ad nulla!</p>
             <ul>
                 <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </li>
                 <li>ut wisi eni ad minim veniam</li>
@@ -46,7 +47,7 @@
                 <tr>
                     <td>Lorem ipsum dolor </td>
                     <td>Lorem ipsum dolor</td>
-                    <td>Lorem ipsum dolor</td>
+                    <td class="text">Lorem ipsum dolor</td>
                 </tr>
             </thead>
 
@@ -71,14 +72,14 @@
             </tbody>
         </table>
 
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam repellendus ex impedit placeat exercitationem incidunt modi quasi esse porro dignissimos repudiandae, itaque natus corrupti omnis suscipit perspiciatis alias earum assumenda!</p>
+        <p id="text-table">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <span class="highlight">Quisquam repellendus ex impedit placeat exercitationem incidunt modi quasi esse porro</span> dignissimos repudiandae, itaque natus corrupti omnis suscipit perspiciatis alias earum assumenda!</p>
 
        </main>
 
     <footer>
         <p><b id="testo-foto-finali">Potrebbero interessarti</b></p>
-        <div class="foto-finale-1"><b>Lorem ipsum dolor</b></div>
-        <div class="foto-finale-2"><b>Lorem ipsum dolor</b></div>
+        <div id="image-monitor" class="image"><b>Lorem ipsum dolor</b></div>
+        <div id="image-graph" class="image"><b>Lorem ipsum dolor</b></div>
     </footer>
 
 </body>

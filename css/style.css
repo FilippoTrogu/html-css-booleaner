@@ -1,26 +1,40 @@
-.container{
-    background-color: aquamarine;
-    width: 100%;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url('../img/pattern.png');
+    background-color: aqua;
     height: 100px;
-    background: url('../img/pattern.png');
-    background-size: contain;
+    background-size: 30%;
+}
+
+main{
+    margin-top: 20px;
 }
 
 .logo{
-    background-image: url('../img/logo.svg');
-    background-repeat: no-repeat;
-    background-position: left;
     width: 300px;
-    height: 100px;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 #data{
     font-size: small;
 }
 
-#autore{
+#author-name{
     color: rgb(0, 115, 255);
+}
+
+.author{
+    font-size: 18px;
+    color: gray;
+}
+
+.photo{
+    margin: 20px 0px;
 }
 
 #info-foto{
@@ -31,27 +45,32 @@
     color: grey;
 }
 
-.foto-finale-1{
-    background-image: url('../img/monitor.jpg');
-    width: 200px;
-    height: 200px;
-    text-align: center;
-    font-size: large;
-    color: white;
+#image-monitor{
+    background-image: url('../img/monitor.jpg'); 
 }
 
-.foto-finale-2{
+#image-graph{
     background-image: url('../img/graph.jpg');
+    margin-top: 5px;
+}
+
+.image{
     width: 200px;
     height: 200px;
-    margin-top: 5px;
-    text-align: center;
-    font-size: large;
     color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
 }
+
 
 #testa-tabella{
-    background-color: blue;
+    background-color: rgb(83, 118, 184);
+}
+
+table{
+    border-spacing: 0;
+    text-align: left;
 }
 
 thead{
@@ -64,4 +83,24 @@ thead{
 
 #row 2{
     background-color: white;
+}
+
+.highlight{
+    background-color: yellow;
+}
+
+ul{
+    margin: 30px 15px;
+}
+
+footer{
+    margin-top: 20px;
+}
+
+.text{
+    width: 50%;
+}
+
+#text-table{
+    margin-top: 20px;
 }
